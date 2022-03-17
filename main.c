@@ -47,7 +47,7 @@ handlesignals(void(*hdl)(int))
 	sigemptyset(&sa.sa_mask);
 	sigaction(SIGTERM, &sa, NULL);
 	sigaction(SIGHUP, &sa, NULL);
-	sigaction(SIGINT, &sa, NULL);
+	//sigaction(SIGINT, &sa, NULL);
 	sigaction(SIGQUIT, &sa, NULL);
 }
 
