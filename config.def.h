@@ -20,7 +20,7 @@ static const struct {
 	{ "h",     "text/plain; charset=utf-8" },
 	{ "gz",    "application/x-gtar" },
 	{ "tar",   "application/tar" },
-	{ "pdf",   "application/x-pdf" },
+	{ "pdf",   "application/pdf" },
 	{ "png",   "image/png" },
 	{ "gif",   "image/gif" },
 	{ "jpeg",  "image/jpg" },
@@ -34,6 +34,10 @@ static const struct {
 	{ "mp4",   "video/mp4" },
 	{ "ogv",   "video/ogg" },
 	{ "webm",  "video/webm" },
+	{ "ico",   "image/x-icon" },
+	{ "otf",   "font/otf" },
+	{ "ttf",   "font/ttf" },
+	{ "woff",  "font/woff" },
 };
 
 #endif /* CONFIG_H */
